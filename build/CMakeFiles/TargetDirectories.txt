@@ -1,0 +1,3 @@
+/home/hacker/pwnat/build/CMakeFiles/pwnat.dir
+/home/hacker/pwnat/build/CMakeFiles/edit_cache.dir
+/home/hacker/pwnat/build/CMakeFiles/rebuild_cache.dir

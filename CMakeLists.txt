@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.19)
+set(GCC_COVERAGE_COMPILE_FLAGS "-m32")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
+project(pwnat)
+add_executable(pwnat pwnat.c udpclient.c udpserver.c packet.c socket.c strlcpy.c destination.c client.c message.c list.c)
